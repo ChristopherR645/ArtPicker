@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>ArtDisplayer</AssemblyName>
+    <RootNamespace>ArtDisplayer</RootNamespace>
+    <ApplicationIcon>GoogleArtFinder_Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="unsplasharp.api" Version="0.7.0" />
+  </ItemGroup>
+
+</Project>
